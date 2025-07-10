@@ -92,10 +92,10 @@ Once this script has been executed for all three samples, three result files wil
 ### Suggested execution
 
 ```bash
-python3 analysis_cross_corr.py 0
-python3 analysis_cross_corr.py 1
-python3 analysis_cross_corr.py 2
-python3 plot_cross_corr.py
+python3 analysis_cross_corr.py 0;
+python3 analysis_cross_corr.py 1;
+python3 analysis_cross_corr.py 2;
+python3 plot_cross_corr.py;
 ```
 *Note: The IAAFT surrogate generation is performed for each window, which can make the analysis computationally intensive and time-consuming (several minutes per file).*
 
