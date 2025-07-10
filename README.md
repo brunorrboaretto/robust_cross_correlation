@@ -103,7 +103,7 @@ python3 plot_cross_corr.py;
 
 If you find this work helpful for your research, please consider reading and citing:
 
-- Leites, F. L., Boaretto, B. R. R., Masoller, C., & Amador, A., "A robust framework for linking neural activity to vocal output in birdsong". *In revision*.
+- Leites, F. L., Boaretto, B. R. R., Masoller, C., & Amador, A., "A robust framework for linking neural activity to vocal output in birdsong". *Under review*.
 
 
 
