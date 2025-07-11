@@ -78,7 +78,7 @@ Each `.dat` file contains a long time series composed of thousands of millisecon
 
 ## Code
 
-For each sample (`404`, `978`, and `310`), the analysis follows two main steps. First, run the script `<code>analysis_cross_corr.py</code>` to:
+For each sample (`404`, `978`, and `310`), the analysis follows two main steps. First, run the script <code>analysis_cross_corr.py</code> to:
 
 - Load the MUA and ENV data;
 - Define hyperparameters such as window size, window step, maximum lag, prominence threshold, and tolerance threshold;
@@ -87,7 +87,7 @@ For each sample (`404`, `978`, and `310`), the analysis follows two main steps. 
 - Compute the windowed cross-correlation for each segment;
 - Extract the peak cross-correlation value and its associated delay ($C^*$ and $τ^*$), or mark the segment as undefined if the significance criteria are not met.
 
-Once this script has been executed for all three samples, three result files will be created. Then, execute `<code>plot_cross_corr.py</code>` to generate the visualizations corresponding to Figs. 4, 5, and 6 of the manuscript.
+Once this script has been executed for all three samples, three result files will be created. Then, execute <code>plot_cross_corr.py</code> to generate the visualizations corresponding to Figs. 4, 5, and 6 of the manuscript.
 
 ### Suggested execution
 
@@ -97,7 +97,7 @@ python3 analysis_cross_corr.py 1;
 python3 analysis_cross_corr.py 2;
 python3 plot_cross_corr.py;
 ```
-*Note: The IAAFT surrogate generation is performed for each window, which can make the analysis computationally intensive and time-consuming (several minutes per file).*
+*Note: The IAAFT surrogate generation is performed 100 of times for each window, which can make the analysis computationally intensive and time-consuming (several minutes per file).*
 
 ## Citation
 
